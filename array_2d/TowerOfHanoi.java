@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class TowerOfHanoi {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -12,11 +11,8 @@ public class TowerOfHanoi {
         if(n == 0){
             return;
         }
-
         towerofHanoi(n - 1, from_rod, aux_rod, to_rod);
-
         System.out.println("Move disk " + n + " from " + from_rod + " to " + to_rod);
-
         towerofHanoi(n - 1, aux_rod, to_rod, from_rod);
     }
 }

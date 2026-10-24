@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Fibonacci {
     static int n1 = 0, n2 = 1, n3 = 0;
     static void printFibonnaci(int count){
@@ -11,7 +10,6 @@ public class Fibonacci {
             printFibonnaci(count - 1);
         }
     }
-
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of Fibonacci numbers you want to print: ");
