@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ArraylistTrial {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of arrays u want to input: ");
         int n = scn.nextInt();

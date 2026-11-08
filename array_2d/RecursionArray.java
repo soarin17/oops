@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class RecursionArray {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array: ");
         int n = scn.nextInt();

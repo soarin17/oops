@@ -3,30 +3,30 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class GetKPC {
-    public static void main(String[] args) {
-        ArrayList<String[]> listOfArrays = new ArrayList<>();
+    public static void main(Stringmethods[] args) {
+        ArrayList<Stringmethods[]> listOfArrays = new ArrayList<>();
 
         // 2. Create some sample arrays
-        String[] row1 = {"1"};
-        String[] row2 = {"2"};
-        String[] row3 = {"A", "B", "C"};
-        String[] row4 = {"3"};
-        String[] row5 = {"D", "E", "F"};
-        String[] row6 = {"4"};
-        String[] row7 = {"G", "H", "I"};
-        String[] row8 = {"5"};
-        String[] row9 = {"J", "K", "L"};
-        String[] row10 = {"6"};
-        String[] row11 = {"M", "N", "O"};
-        String[] row12 = {"7"};
-        String[] row13 = {"P", "Q", "R", "S"};
-        String[] row14 = {"8"};
-        String[] row15 = {"T", "U", "V"};
-        String[] row16 = {"9"};
-        String[] row17 = {"W", "X", "Y", "Z"};
-        String[] row18 = {"*"};
-        String[] row19 = {"0"};
-        String[] row20 = {"#"};
+        Stringmethods[] row1 = {"1"};
+        Stringmethods[] row2 = {"2"};
+        Stringmethods[] row3 = {"A", "B", "C"};
+        Stringmethods[] row4 = {"3"};
+        Stringmethods[] row5 = {"D", "E", "F"};
+        Stringmethods[] row6 = {"4"};
+        Stringmethods[] row7 = {"G", "H", "I"};
+        Stringmethods[] row8 = {"5"};
+        Stringmethods[] row9 = {"J", "K", "L"};
+        Stringmethods[] row10 = {"6"};
+        Stringmethods[] row11 = {"M", "N", "O"};
+        Stringmethods[] row12 = {"7"};
+        Stringmethods[] row13 = {"P", "Q", "R", "S"};
+        Stringmethods[] row14 = {"8"};
+        Stringmethods[] row15 = {"T", "U", "V"};
+        Stringmethods[] row16 = {"9"};
+        Stringmethods[] row17 = {"W", "X", "Y", "Z"};
+        Stringmethods[] row18 = {"*"};
+        Stringmethods[] row19 = {"0"};
+        Stringmethods[] row20 = {"#"};
 
         // 3. Add the arrays to the ArrayList
         listOfArrays.add(row1);
@@ -57,7 +57,7 @@ public class GetKPC {
 
         // 5. Loop through everything
         System.out.println("\nAll items:");
-        for (String[] array : listOfArrays) {
+        for (Stringmethods[] array : listOfArrays) {
             System.out.println(Arrays.toString(array));
         }
     }

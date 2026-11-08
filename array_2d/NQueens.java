@@ -62,7 +62,7 @@ public class NQueens {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         solveNQ();
     }
 }

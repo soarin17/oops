@@ -37,7 +37,7 @@ public class Quick_sort {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("enter the number of elements: ");
         int n = scn.nextInt();

@@ -56,7 +56,7 @@ public class Merge_sort {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("enter the number of elements in the array: ");
         int n = scn.nextInt();

@@ -20,7 +20,7 @@ public class Hanoi {
     }
 
     // Main method - Entry point of the program
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
     // Create a Scanner object to read input from the user
     Scanner scn = new Scanner(System.in);
 

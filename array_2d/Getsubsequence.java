@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Getsubsequence {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array: ");
         int n = scn.nextInt();
@@ -13,7 +13,7 @@ public class Getsubsequence {
         makesubsequence(arr, 0, "");
     }
 
-    public static void makesubsequence(int[] arr, int index, String current){
+    public static void makesubsequence(int[] arr, int index, Stringmethods current){
         if(index == arr.length){
             System.out.println(current);
             return;

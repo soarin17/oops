@@ -3,9 +3,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class NotArrayList{
-    public static void main(String[] args) {
-        String[] friends = {"John", "Kyle", "Paul"};
-        ArrayList<String> names = new ArrayList<>();
+    public static void main(Stringmethods[] args) {
+        Stringmethods[] friends = {"John", "Kyle", "Paul"};
+        ArrayList<Stringmethods> names = new ArrayList<>();
         names.add("tim");
         names.add("ron");
 
@@ -38,7 +38,7 @@ public class NotArrayList{
         for(int i = 0; i < names.size(); i++){
             System.out.println(names.get(i));
         }
-        for(String name: names){
+        for(Stringmethods name: names){
             System.out.println(name);
         }
         System.out.println(names);

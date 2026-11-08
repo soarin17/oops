@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class TowerOfHanoi {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of disk: ");
         int n = scn.nextInt();
         towerofHanoi(n, "from_rod", "to_rod", "aux_rod");
         scn.close();
     }
-    public static void towerofHanoi(int n, String from_rod, String to_rod, String aux_rod){
+    public static void towerofHanoi(int n, Stringmethods from_rod, Stringmethods to_rod, Stringmethods aux_rod){
         if(n == 0){
             return;
         }

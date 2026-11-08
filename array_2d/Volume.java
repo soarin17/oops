@@ -37,7 +37,7 @@ class Sphere {
 }
 
 public class Volume {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
 
         Cube cube = new Cube(5);
         Cylinder cylinder = new Cylinder(3, 10);

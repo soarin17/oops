@@ -10,7 +10,7 @@ public class Factorial {
         }
     }
 */
-    public static void main(String[] args)throws Exception {
+    public static void main(Stringmethods[] args)throws Exception {
         Scanner scn = new Scanner(System.in);
         System.out.print("Number you want to input: ");
         /*int num = scn.nextInt();

@@ -72,7 +72,7 @@ public class MergeSort {
         System.out.println();
     }
 
-    public static void main(String args[]) {
+    public static void main(Stringmethods args[]) {
         // Create a scanner to read input from the user
         Scanner scn = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Activity1 {
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("enter the number of rows: ");
         int n = scn.nextInt();

@@ -6,13 +6,13 @@ import java.util.Scanner;
 
 public class KPC {
     static Character[][] numberToCharMap;
-    private static List<String> printWords(int[] numbers, int len, int numIndex, String s){
+    private static List<Stringmethods> printWords(int[] numbers, int len, int numIndex, Stringmethods s){
         if(len == numIndex){
             return new ArrayList<>(Collections.singleton(s));
         }
-        List<String> stringList = new ArrayList<>();
+        List<Stringmethods> stringList = new ArrayList<>();
         for(int i = 0; i < numberToCharMap[numbers[numIndex]].length; i++){
-            String scopy = String.copyValueOf(s.toCharArray());
+            Stringmethods scopy = Stringmethods.copyValueOf(s.toCharArray());
             scopy = scopy.concat(numberToCharMap[numbers[numIndex]][i].toString());
 
             stringList.addAll(printWords(numbers, len, numIndex + 1, scopy));
@@ -22,7 +22,7 @@ public class KPC {
     }
     private static void printWords(int[] numbers){
         generateNumberToCharMap();
-        List<String> stringList = printWords(numbers, numbers.length, 0, "");
+        List<Stringmethods> stringList = printWords(numbers, numbers.length, 0, "");
         stringList.stream().forEach(System.out::println);
 
     }
@@ -41,7 +41,7 @@ public class KPC {
         numberToCharMap[9] = new Character[]{'W', 'X', 'Y', 'Z'};
     }
 
-    public static void main(String[] args) {
+    public static void main(Stringmethods[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Enter the number of digits: ");
         int n = scn.nextInt();
