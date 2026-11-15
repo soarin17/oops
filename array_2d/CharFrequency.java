@@ -2,7 +2,9 @@ import java.util.*;
 
 public class CharFrequency {
     public static void main(String[] args) {
-       String str = "testmail@hotmail.com";
+        Scanner scn = new Scanner(System.in);
+       System.out.println("Enter the string");
+       String str = scn.nextLine();
     int[] freq = new int[256];
     for(int i = 0; i < str.length(); i++){
         char ch = str.charAt(i);
